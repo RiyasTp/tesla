@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif;
+}
+a{
+    font-size: 14px;
+    color: black; 
+}
+header{
+    position: fixed;
+    width: 100%; 
+}
+.logo svg{
+    height: 14px;  
+    padding:  20px 0; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    padding:0 50px;
+}
+nav .products ul{
+    display: flex;
+}
+nav .menu ul{
+    display: flex; 
+}
+
+nav li{
+    list-style: none;
+    padding: 20px; 
+}
+nav a{
+    text-decoration: none;
+}
+
+section .details{
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+
+    text-align: center; 
+
+
+}
+.model3{
+    background-image: url(assets/asset\ 0.jpeg);
+}
+.modelY{
+    background-image: url(assets/asset\ 1.jpeg); 
+}
+.modelS{
+    background-image: url(assets/asset\ 2.jpeg); 
+}
+.modelX{
+    background-image: url(assets/asset\ 3.jpeg); 
+}
+.solarPanel{
+    background-image: url(assets/asset\ 4.jpeg); 
+}
+.solarRoof{
+    background-image: url(assets/asset\ 5.jpeg);  
+}
+.accessories{
+    background-image: url(assets/asset\ 6.jpeg);  
+}
+
+.details h3{
+    font-size: 40px;
+    padding: 0px 24px; 
+}
+
+.details p{
+    font-size: 14px;
+    padding: 16px; 
+}
+.details .btn{
+    text-decoration: none;
+}
+
+.btn{
+    width: 200px;
+    text-align: center;
+
+    padding: 15px 84px;
+    border-radius: 24px; 
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.inventory{ 
+    margin-left: 30px;
+    background-color: rgba(244, 244, 244, 0.65);
+    color: rgb(0, 0, 0);
+}
+
+.mt1{
+    margin-top: 200px; 
+}
+
+.footerNav ul{
+    display: flex;
+    margin: auto; 
+}
